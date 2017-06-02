@@ -2,6 +2,7 @@ body {
   background: #fff;
   color: #222;
   font-family: 'Oswald', sans-serif;
+  font-stretch: condensed;
   text-align: center;
 }
 
@@ -14,14 +15,13 @@ body {
 }
 
 .proj-img {
-  width: 30vw;
-  height: 20vw;
+  width: 50vh;
+  height: 35vh;
   overflow: hidden;
   object-fit: cover;
-  position: center;
+  /*position: static;*/
 }
 
 .title-name {
   font-weight: 100;
-  font-stretch: extra-expanded;
 }
