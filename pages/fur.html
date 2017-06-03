@@ -1,80 +1,74 @@
+<!DOCTYPE html>
 <head>
-    <title> COS426 Assignment 4 &mdash; Animation &mdash; Writeup</title>
-    <link href="css/style.css" type="text/css" rel="stylesheet"/>
+    <title> By Kara Bressler </title>
+    <link href="../css/style.css" type="text/css" rel="stylesheet"/>
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 </head>
 
-<body>
-    <script src="js/student.js"> </script>
-    <script src="js/writeup.js"> </script>
+<html>
+  <body>
+    <script src="js/index.js"> </script>
     <div class="top">
-    <div class="main_div">
+      <div class="main_div">
 
-        <h1> <div class=assignment>COS426 Assignment 4</div>Animation &mdash; Writeup</h1>
-        <div class='selectable'>
-        <h2 id='student'></h2>
+        <p><hr><p>
+        <div class="title-name" href="index.html"><h1><strong>fur</strong></h1></div>
+        <p><hr><p>
 
-        Features Implemented:
-<ul>
-<li>(1.0) <a href='#Euler'>Euler</a></li>
-<li>(1.0) <a href='#Sphere+source'>Sphere source</a></li>
-<li>(1.0) <a href='#Attractor+source'>Attractor</a></li>
-<li>(1.0) <a href='#Animated+mesh'>Animated mesh</a></li>
-<li>(1.0) <a href='#Ground+plane'>Ground plane</a></li>
-<li>(1.0) <a href='#Axis+box'>Axis box</a></li>
-<li>(1.0) <a href='#Sphere+collision'>Sphere collision</a></li>
-<li>(2.0) <a href='#Spring+system'>Spring system</a></li>
-<li>(3.0) <a href='#Your+system'>Your system</a></li>
-<li>(1.0) <a href='#Rendering'>Rendering</a></li>
-<li>(1.0) <a href='#Art'>Art</a></li>
-        </ul></div>
 
-<p><hr><p><a name='Euler'></a><h2>Euler</h2><p><hr><p>
-We implemented Euler as corresponding with the precept slides.
+          <div class="container">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+              </ol>
 
-<p><hr><p><a name='Sphere+source'></a><h2>Sphere source</h2><p><hr><p>
-We implemented the Sphere source.
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img src="../images/Fur Rendering/tiger-torus.png" alt="Torus" style="height:80vh;">
+                </div>
 
-<p><hr><p><a name='Attractor'></a><h2>Attractor</h2><p><hr><p>
-We implemented the attractor by directing the velocities of the particles toward the attractor.
-<br><img src='results/attractor.png'>
-<br><img src='results/attractor2.png'>
+                <div class="item">
+                  <img src="../images/Fur Rendering/results.png" alt="Results" style="height:80vh;">
+                </div>
 
-<p><hr><p><a name='Animated+mesh'></a><h2>Animated mesh</h2><p><hr><p>
-We implemented the Animated Mesh for the horse.
-<br><img src='results/horse.png'>
+                <div class="item">
+                  <img src="../images/Fur Rendering/textures.jpg" alt="Textures" style="height:80vh;">
+                </div>
 
-<p><hr><p><a name='Ground+plane'></a><h2>Ground plane</h2><p><hr><p>
-We implemented the bounce and sink Ground Planes for any plane.
-<br><img src='results/fountain.png'>
-<br><img src='results/bounce.png'>
-<br><img src='results/sink.png'>
+                <div class="item">
+                  <img src="../images/Fur Rendering/mistakes.png" alt="Mistakes" style="height:80vh;">
+                </div>
+              </div>
 
-<p><hr><p><a name='Axis+box'></a><h2>Axis box</h2><p><hr><p>
-We attempted Axis Box, as can be seen in the code of updaters.js.
+              <!-- Left and right controls -->
+              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
 
-<p><hr><p><a name='Sphere+collision'></a><h2>Sphere collision</h2><p><hr><p>
-We implemented Sphere Collision for the cloth by making the particle stay on the surface of the sphere were the particle to hit the surface of the sphere.
-<br><img src='results/cloth.png'>
+        <h3>Experiment with rendering fur and grass in real time.</h3>
+        <br><h3>Try it out <a href="http://karabeara.github.io/426_final">here</a>.</h3>
+        <br><h3>Used THREE.js, GLSL.</h3>
 
-<p><hr><p><a name='Spring+system'></a><h2>Spring system</h2><p><hr><p>
-We implemented Spring Source by calling our method to calculate Hooke's Law.
-<br><img src='results/cloth.png'>
-
-<p><hr><p><a name='Your+system'></a><h2>Your system</h2><p><hr><p>
-We make a grid of spheres and draped a cloth over them!
-We also implemented the flying of the crane!
-
-<br><img src='results/mySecondSystem.png'>
-
-<p><hr><p><a name='Rendering'></a><h2>Rendering</h2><p><hr><p>
-We changed the pixel sizes and colors in the fountain rendering!
-<br><img src='results/fountain.png'>
-
-<p><hr><p><a name='Art'></a><h2>Art</h2><p><hr><p>
-Here are some mess ups from our first attempts at implementing cloth - we made a speaker phone!
-<br><img src='results/art.png'>
+      </div>
 
     </div>
-    </div>
-</body>
+  </body>
 </html>
