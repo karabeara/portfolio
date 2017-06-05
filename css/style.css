@@ -1,6 +1,6 @@
 html, body {
-  background-color: #343400;
-  color: #343434;
+  background-color: #fff;
+  color: #fff;
   margin: 0px;
   padding: 0px;
   font-family: 'Oswald', arial, sans-serif;
@@ -18,14 +18,6 @@ html, body {
   padding: 0px;
   /*background: #555;
   color: #fff;*/
-}
-
-.proj-icon {
-  width: 10vh;
-  height: 10vh;
-  overflow: hidden;
-  object-fit: cover;
-  /*position: fixed;*/
 }
 
 .proj-img {
@@ -50,20 +42,16 @@ html, body {
 
 /* Details page */
 .item {
-  height: 70vh;
+  height: 50vh;
+  width: auto;
   margin: auto;
-  /*margin: 0px;
-  padding: 0px;*/
+
 }
 
 .item img {
-  height: 70vh;
+  height: 50vh;
+  width: auto;
   margin: auto;
-}
-
-
-/* Sidenav */
-.sidenav {
-  margin: 0px;
-  padding: 0px;
+  overflow: hidden;
+  object-fit: cover;
 }
