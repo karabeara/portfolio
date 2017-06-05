@@ -7,8 +7,12 @@ html, body {
   text-align: center;
 }
 
+.col-md-12 {
+  background-color: #000;
+}
 
-.container {
+.container, .row {
+  background-color: #000;
   margin: 0px;
   padding: 0px;
 }
@@ -40,10 +44,12 @@ html, body {
   padding: 0px;
 }
 
-/* Details page */
+/* Details page - carousel */
+
 .item {
-  height: 50vh;
-  width: auto;
+  padding-top: 4vh;
+  height: 59vh;
+  /*width: auto;*/
   margin: auto;
 
 }
