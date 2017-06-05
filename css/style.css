@@ -7,16 +7,6 @@ html, body {
   text-align: center;
 }
 
-.col-md-12 {
-  background-color: #000;
-}
-
-.container, .row {
-  background-color: #000;
-  margin: 0px;
-  padding: 0px;
-}
-
 .main-div {
   margin: 0px;
   padding: 0px;
@@ -60,4 +50,14 @@ html, body {
   margin: auto;
   overflow: hidden;
   object-fit: cover;
+}
+
+.carousel .row {
+  background-color: #000;
+  margin: 0px;
+  padding: 0px;
+}
+
+.col-md-12 .container {
+  background-color: #000;
 }
