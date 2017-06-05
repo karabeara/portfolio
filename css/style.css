@@ -61,3 +61,12 @@ html, body {
 .col-md-12 .container {
   background-color: #000;
 }
+
+/* Flipbook */
+.flipbook {
+  height: 80vh;
+}
+
+iframe {
+  background-color: #fff;
+}
