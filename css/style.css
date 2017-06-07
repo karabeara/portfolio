@@ -58,8 +58,18 @@ html, body {
   padding: 0px;
 }
 
+.carousel .row .white {
+  background-color: #fff;
+  margin: 0px;
+  padding: 0px;
+}
+
 .col-md-12 .container {
   background-color: #000;
+}
+
+.col-md-12 .container .white {
+  background-color: #fff;
 }
 
 /* Flipbook */
