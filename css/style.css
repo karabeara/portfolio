@@ -80,3 +80,23 @@ html, body {
 iframe {
   background-color: #fff;
 }
+
+/* PDF */
+.pdf {
+  height: 60vh;
+  width: 60vh;
+  background-color: #000;
+  color: #000;
+}
+
+embed .pdf {
+  height: 60vh;
+  width: 60vh;
+  background-color: #000;
+  color: #000;
+}
+
+.poster img {
+  height: 70vh;
+  width: auto;
+}
