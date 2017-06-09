@@ -98,6 +98,7 @@ embed .pdf {
 
 
 /* Stand-along images */
+
 .poster img {
   height: 70vh;
   width: auto;
@@ -107,6 +108,23 @@ embed .pdf {
   height: 70vh;
   width: auto;
   max-width: 90vw;
+  border:10px solid black;
+  margin:0px;
+  padding: 0px;
+}
+
+.poster-width-2 img {
+  height: 70vh;
+  width: auto;
+  max-width: 95vw;
+}
+
+.poster-grid img {
+  height: 60vh;
+  width: 45vw;
+  border:10px solid black;
+  margin:0px;
+  padding: 0px;
 }
 
 .poster-long img {
