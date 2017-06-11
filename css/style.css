@@ -34,7 +34,7 @@ html, body {
   border:10px solid white;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 768px) {
   .proj-img {
     width: 90vh;
     height: 60vh;
