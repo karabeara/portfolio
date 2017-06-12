@@ -135,8 +135,11 @@ embed .pdf {
 
 /* Stand-along images */
 .detail-img {
-  width: 95vw;
+  width: 80vw;
   height: auto;
+  border: 10px solid black;
+  margin: 0px;
+  padding: 0px;
 }
 
 .poster img {
