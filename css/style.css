@@ -16,7 +16,10 @@ html, body {
 
 .proj-img, .proj-img-bw{
   width: 50vh;
+  max-width: 334px;
   height: 35vh;
+  max-height: 233px;
+
   overflow: hidden;
   object-fit: cover;
   margin: 0px;
