@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
-	// initialization for grid format
-	if($(window).width() > 922) {
+	// initialization for grid format, 922
+	if($(window).width() > 1400) {
 		$('.main-div').addClass('limit-large');
 		$('.main-div').removeClass('limit-small');
 		$('.proj-img').removeClass('img-responsive');
@@ -12,10 +12,10 @@ $(document).ready(function(){
 });
 
 
-// adjusting img-responsive-ness upon resizing
+// adjusting img-responsive-ness upon resizing, 922
 $(window).on('resize', function() {
 
-		if($(window).width() > 922) {
+		if($(window).width() > 1400) {
 				$('.main-div').addClass('limit-large');
 				$('.main-div').removeClass('limit-small');
 				$('.proj-img').removeClass('img-responsive');
