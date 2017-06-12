@@ -32,7 +32,7 @@ html, body {
   height: 35vh;
   max-width: 334px;
   max-height: 233px;
-  
+
   overflow: hidden;
   object-fit: cover;
   margin: 0px;
@@ -44,6 +44,9 @@ html, body {
   .proj-img {
     width: 90vh;
     height: 60vh;
+    max-width: 90vh;
+    max-height: 60vh;
+
     overflow: hidden;
     object-fit: cover;
     padding: 0px;
@@ -55,11 +58,14 @@ html, body {
   .proj-img-w, .proj-img-bw {
     width: 90vh;
     height: 60vh;
+    max-width: 90vh;
+    max-height: 60vh;
+    
     overflow: hidden;
     object-fit: cover;
     padding: 0px;
     margin: 0px;
-    display: block;
+    /*display: block;*/
     border:10px solid #fff;
   }
 }
