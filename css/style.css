@@ -14,10 +14,10 @@ html, body {
   color: #fff;*/
 }
 
-.proj-img, .proj-img-bw{
+.proj-img, .proj-img-bw {
   width: 50vh;
-  max-width: 334px;
   height: 35vh;
+  max-width: 334px;
   max-height: 233px;
 
   overflow: hidden;
@@ -30,6 +30,9 @@ html, body {
 .proj-img-w {
   width: 50vh;
   height: 35vh;
+  max-width: 334px;
+  max-height: 233px;
+  
   overflow: hidden;
   object-fit: cover;
   margin: 0px;
