@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+	alert("Screen width: " + $(window).width());
+
 	// initialization for grid format, 922
 	if($(window).width() > 1400) {
 		$('.main-div').addClass('limit-large');
