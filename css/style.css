@@ -137,6 +137,10 @@ embed .pdf {
 .detail-img {
   width: 80vw;
   height: auto;
+  max-height: 90vh;
+  width: auto;
+  max-width: 90vw;
+  height: auto;
   border: 10px solid black;
   margin: 0px;
   padding: 0px;
@@ -144,6 +148,10 @@ embed .pdf {
 
 .detail-img-w {
   width: 80vw;
+  height: auto;
+  max-height: 90vh;
+  width: auto;
+  max-width: 90vw;
   height: auto;
   border: 10px solid white;
   margin: 0px;
