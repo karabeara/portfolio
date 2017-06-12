@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	// initialization
+	// initialization for grid format
 	if($(window).width() > 922) {
 		$('.main-div').addClass('limit-large');
 		$('.main-div').removeClass('limit-small');
