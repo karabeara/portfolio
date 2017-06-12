@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 	// initialization for grid format
-	if($(window).width() > 1200) {
+	if($(window).width() > 60000) {
 		$('.main-div').addClass('limit-large');
 		$('.main-div').removeClass('limit-small');
 		$('.proj-img').removeClass('img-responsive');
@@ -15,7 +15,7 @@ $(document).ready(function(){
 // adjusting img-responsive-ness upon resizing
 $(window).on('resize', function() {
 
-		if($(window).width() > 1200) {
+		if($(window).width() > 60000) {
 				$('.main-div').addClass('limit-large');
 				$('.main-div').removeClass('limit-small');
 				$('.proj-img').removeClass('img-responsive');
