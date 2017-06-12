@@ -134,6 +134,10 @@ embed .pdf {
 
 
 /* Stand-along images */
+.detail-img {
+  width: 95vw;
+  height: auto;
+}
 
 .poster img {
   height: 70vh;
