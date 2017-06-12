@@ -1,1 +1,1 @@
-Portfolio for Kara Bressler's body of artistic and programming work
+Portfolio for Kara Bressler's body of artistic and programming work.
