@@ -1,9 +1,9 @@
 $(document).ready(function(){
 
-	alert("Screen width: " + $(window).width());
+	// alert("Screen width: " + $(window).width());
 
-	// initialization for grid format, 922
-	if($(window).width() > 1400) {
+	// initialization for grid format, 992
+	if($(window).width() > 992) {
 		$('.main-div').addClass('limit-large');
 		$('.main-div').removeClass('limit-small');
 		$('.proj-img').removeClass('img-responsive');
@@ -14,10 +14,10 @@ $(document).ready(function(){
 });
 
 
-// adjusting img-responsive-ness upon resizing, 922
+// adjusting img-responsive-ness upon resizing, 992
 $(window).on('resize', function() {
 
-		if($(window).width() > 1400) {
+		if($(window).width() > 992) {
 				$('.main-div').addClass('limit-large');
 				$('.main-div').removeClass('limit-small');
 				$('.proj-img').removeClass('img-responsive');
