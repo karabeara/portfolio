@@ -61,8 +61,8 @@ $(document).ready(function(){
 		$('.proj-img-w').removeClass('img-responsive');
 		$('.proj-img-bw').removeClass('img-responsive');
 	}
-	
-)};
+
+});
 
 
 $(window).on('resize', function() {
