@@ -60,7 +60,7 @@ html, body {
     height: 60vh;
     max-width: 90vh;
     max-height: 60vh;
-    
+
     overflow: hidden;
     object-fit: cover;
     padding: 0px;
@@ -169,6 +169,57 @@ embed .pdf {
   margin: 0px;
   padding: 0px;
 }
+
+.detail-img-pc-single {
+  width: 90vw;
+  height: auto;
+  max-height: 70vh;
+  width: auto;
+  max-width: 50vw;
+  height: auto;
+  border: 10px solid black;
+  margin: 0px;
+  padding: 0px;
+}
+
+@media (max-width: 992px) {
+  .detail-img-pc-single {
+    width: 90vw;
+    height: auto;
+    max-height: 70vh;
+    width: auto;
+    max-width: 90vw;
+    height: auto;
+    border: 10px solid black;
+    margin: 0px;
+    padding: 0px;
+  }
+}
+
+.detail-img-pc-double {
+  width: 90vw;
+  height: auto;
+  max-height: 90vh;
+  width: auto;
+  max-width: 20vw;
+  height: auto;
+  border: 10px solid black;
+  margin: 0px;
+  padding: 0px;
+}
+
+.detail-img-pc-triple {
+  width: 90vw;
+  height: auto;
+  max-height: 90vh;
+  width: auto;
+  max-width: 27vw;
+  height: auto;
+  border: 10px solid white;
+  margin: 0px;
+  padding: 0px;
+}
+
 
 .poster img {
   height: 70vh;
