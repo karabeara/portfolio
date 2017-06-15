@@ -37,7 +37,7 @@ html, body {
   object-fit: cover;
   margin: 0px;
   padding: 0px;
-  border:10px solid #fff;
+  /*border:10px solid #fff;*/
 }
 
 @media (max-width: 992px) {
