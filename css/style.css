@@ -245,6 +245,32 @@ embed .pdf {
   }
 }
 
+.detail-img-grid {
+  width: 90vw;
+  height: auto;
+  max-height: 90vh;
+  width: auto;
+  max-width: 27vw;
+  height: auto;
+  border: 10px solid black;
+  margin: 0px;
+  padding: 0px;
+}
+
+@media (max-width: 992px) {
+  .detail-img-grid {
+    width: 80vw;
+    height: auto;
+    max-height: 90vh;
+    width: auto;
+    max-width: 90vw;
+    height: auto;
+    border: 10px solid black;
+    margin: 0px;
+    padding: 0px;
+  }
+}
+
 .poster img {
   height: 70vh;
   width: auto;
