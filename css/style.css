@@ -1,17 +1,56 @@
-html, body {
+#bootstrap-overrides body {
   background-color: #fff;
-  color: #fff;
+  color: #888;
   margin: 0px;
   padding: 0px;
-  font-family: 'Oswald', arial, sans-serif;
+  font-family: 'Roboto', helvetica, sans-serif;
+  font-weight: light;
   text-align: center;
+}
+
+#bootstrap-overrides a {
+  color: #444;
+}
+
+#bootstrap-overrides h1, h2, h3 {
+  font-size: 2.7em;
+  font-weight: 100;
+  line-height: 1em;
+  letter-spacing: 0.15em;
+}
+
+/*#bootstrap-overrides strong h4 {
+  font-size: 2em;
+  font-weight: 700;
+  line-height: 1em;
+}*/
+
+#bootstrap-overrides strong {
+  font-size: 3em;
+  font-weight: 700;
+  line-height: 1em;
+}
+
+@media (max-width: 992px) {
+  #bootstrap-overrides h1, h2, h3 {
+    font-family: Roboto, sans-serif;
+    font-size: 2.7em;
+    font-weight: 100;
+    line-height: 1em;
+    letter-spacing: 0.15em;
+  }
+
+  #bootstrap-overrides strong {
+    font-size: 3em;
+    font-weight: 700;
+    line-height: 1em;
+  }
+
 }
 
 .main-div {
   margin: 0px;
   padding: 0px;
-  /*background: #555;
-  color: #fff;*/
 }
 
 .proj-img, .proj-img-bw {
@@ -37,7 +76,6 @@ html, body {
   object-fit: cover;
   margin: 0px;
   padding: 0px;
-  border:10px solid #fff;
 }
 
 @media (max-width: 992px) {
@@ -65,16 +103,8 @@ html, body {
     object-fit: cover;
     padding: 0px;
     margin: 0px;
-    /*display: block;*/
-    border:10px solid #fff;
+    border: 0px solid #000;
   }
-}
-
-.title-name {
-  font-weight: 100;
-  text-align: center;
-  margin: 0px;
-  padding: 0px;
 }
 
 .top {
@@ -83,11 +113,11 @@ html, body {
 }
 
 /* Details page - carousel */
-
+/*
 .item {
   padding-top: 4vh;
   height: 59vh;
-  /*width: auto;*/
+  width: auto;
   margin: auto;
 
 }
@@ -118,7 +148,7 @@ html, body {
 
 .col-md-12 .container .white {
   background-color: #fff;
-}
+}*/
 
 /* Flipbook */
 .flipbook {
@@ -128,22 +158,6 @@ html, body {
 iframe {
   background-color: #fff;
 }
-
-/* PDF */
-.pdf {
-  height: 60vh;
-  width: 60vh;
-  background-color: #000;
-  color: #000;
-}
-
-embed .pdf {
-  height: 60vh;
-  width: 60vh;
-  background-color: #000;
-  color: #000;
-}
-
 
 /* Stand-along images */
 .detail-img {
@@ -165,7 +179,7 @@ embed .pdf {
   width: auto;
   max-width: 90vw;
   height: auto;
-  border: 10px solid white;
+  /*border: 10px solid white;*/
   margin: 0px;
   padding: 0px;
 }
@@ -215,40 +229,58 @@ embed .pdf {
   width: auto;
   max-width: 27vw;
   height: auto;
-  border: 10px solid white;
+  /*border: 10px solid white;*/
   margin: 0px;
   padding: 0px;
 }
 
-
-.poster img {
-  height: 70vh;
+.detail-img-journal {
+  width: 90vw;
+  height: auto;
+  max-height: 90vh;
   width: auto;
-}
-
-.poster-width img {
-  height: 70vh;
-  width: auto;
-  max-width: 90vw;
-  border:10px solid black;
-  margin:0px;
+  max-width: 27vw;
+  height: auto;
+  /*border: 10px solid white;*/
+  margin: 0px;
   padding: 0px;
 }
 
-.poster-width-2 img {
-  height: 70vh;
+@media (max-width: 992px) {
+  .detail-img-journal {
+    width: 80vw;
+    height: auto;
+    max-height: 90vh;
+    width: auto;
+    max-width: 90vw;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+  }
+}
+
+.detail-img-grid {
+  width: 90vw;
+  height: auto;
+  max-height: 90vh;
   width: auto;
-  max-width: 95vw;
+  max-width: 27vw;
+  height: auto;
+  border: 10px solid black;
+  margin: 0px;
+  padding: 0px;
 }
 
-.poster-long img {
-  width: 90vw;
-  height: auto;
-}
-
-.poster-long-2 img {
-  width: 90vw;
-  max-width: 400px;
-  height: auto;
-  min-height: 35vh;
+@media (max-width: 992px) {
+  .detail-img-grid {
+    width: 80vw;
+    height: auto;
+    max-height: 90vh;
+    width: auto;
+    max-width: 90vw;
+    height: auto;
+    border: 10px solid black;
+    margin: 0px;
+    padding: 0px;
+  }
 }
