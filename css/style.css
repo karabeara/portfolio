@@ -13,7 +13,6 @@
 }
 
 #bootstrap-overrides h1, h2, h3 {
-  /*font-weight: 100;*/
   font-family: Roboto, sans-serif;
   font-size: 2.7em;
   font-weight: 100;
@@ -22,13 +21,27 @@
 }
 
 #bootstrap-overrides strong {
-  /*font-weight:700;*/
   font-size: 3em;
   font-weight: 700;
   line-height: 1em;
 }
 
+@media (max-width: 992px) {
+  #bootstrap-overrides h1, h2, h3 {
+    font-family: Roboto, sans-serif;
+    font-size: 2.7em;
+    font-weight: 100;
+    line-height: 1em;
+    letter-spacing: 0.15em;
+  }
 
+  #bootstrap-overrides strong {
+    font-size: 3em;
+    font-weight: 700;
+    line-height: 1em;
+  }
+
+}
 
 /*h1 strong {
   font-weight: 900;
