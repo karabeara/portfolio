@@ -13,12 +13,17 @@
 }
 
 #bootstrap-overrides h1, h2, h3 {
-  font-family: Roboto, sans-serif;
   font-size: 2.7em;
   font-weight: 100;
   line-height: 1em;
   letter-spacing: 0.15em;
 }
+
+/*#bootstrap-overrides strong h4 {
+  font-size: 2em;
+  font-weight: 700;
+  line-height: 1em;
+}*/
 
 #bootstrap-overrides strong {
   font-size: 3em;
@@ -43,15 +48,9 @@
 
 }
 
-/*h1 strong {
-  font-weight: 900;
-}*/
-
 .main-div {
   margin: 0px;
   padding: 0px;
-  /*background: #555;
-  color: #fff;*/
 }
 
 .proj-img, .proj-img-bw {
@@ -108,13 +107,6 @@
   }
 }
 
-.title-name {
-  font-weight: 100;
-  text-align: center;
-  margin: 0px;
-  padding: 0px;
-}
-
 .top {
   margin: 0px;
   padding: 0px;
@@ -166,22 +158,6 @@
 iframe {
   background-color: #fff;
 }
-
-/* PDF */
-/*.pdf {
-  height: 60vh;
-  width: 60vh;
-  background-color: #000;
-  color: #000;
-}
-
-embed .pdf {
-  height: 60vh;
-  width: 60vh;
-  background-color: #000;
-  color: #000;
-}*/
-
 
 /* Stand-along images */
 .detail-img {
@@ -307,44 +283,4 @@ embed .pdf {
     margin: 0px;
     padding: 0px;
   }
-}
-/*
-.poster img {
-  height: 70vh;
-  width: auto;
-}
-
-.poster-width img {
-  height: 70vh;
-  width: auto;
-  max-width: 90vw;
-  border:10px solid black;
-  margin:0px;
-  padding: 0px;
-}
-
-.poster-width-2 img {
-  height: 70vh;
-  width: auto;
-  max-width: 95vw;
-}
-
-.poster-long img {
-  width: 90vw;
-  height: auto;
-}
-
-.poster-long-2 img {
-  width: 90vw;
-  max-width: 400px;
-  height: auto;
-  min-height: 35vh;
-}*/
-
-/* Splash page */
-.full-height {
-  height: 100vh;
-  width: 66vw;
-  margin: 0px;
-  padding: 0px;
 }
