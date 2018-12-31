@@ -15,11 +15,18 @@
     <style type="text/css">
     div, h3 {
       font-family: SEATTLE, Roboto, sans-serif !important; 
-      src: url("./fonts/SEATTLE-Regular.ttf") format("truetype") !important; 
+      src: url("./fonts/SEATTLE-Regular.ttf")  format('truetype') !important;
+      src: url('seattle-regular-webfont.woff2') format('woff2'),
+           url('seattle-regular-webfont.woff') format('woff'), 
+           url("./fonts/SEATTLE-Regular.eot") !important; /* IE9 Compat Modes */; 
       letter-spacing: 0 !important }
     a {
       font-family: NAPLES, Roboto, sans-serif !important; 
-      src: url("./fonts/NAPLES-Regular.ttf") format("truetype") !important; 
+      src: url("./fonts/NAPLES-Regular.ttf")  format('truetype') !important;
+      src: url('naples-regular-webfont.woff2') format('woff2'),
+           url('naples-regular-webfont.woff') format('woff'), 
+           url("./fonts/NAPLES-Regular.svg#NAPLES")  format('svg'),
+           url("./fonts/NAPLES-Regular.eot") !important; /* IE9 Compat Modes */;
       letter-spacing: 0 !important }
     </style>
 
@@ -47,7 +54,7 @@
           <h3>Best Poster for Spring 2018 Princeton Computer Science independent work.</h3>
           <h3>Advised by David Dobkin and David Reinfurt.</h3>
           <h3>TensorFlow, Python, Glyphs. 2018.</h3>
-          <h3>You are currently reading the SEATTLE typeface.</h3><br>
+          <!-- <h3>You are currently reading the SEATTLE typeface.</h3> --><br>
         </div>
 
         <div class="col-md-12">
