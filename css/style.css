@@ -48,6 +48,16 @@
 
 }
 
+@font-face {
+font-family: "NAPLES";
+src: url("css/fonts/NAPLES.eot");
+src: 
+url("css/fonts/NAPLES.ttf") format("ttf"),
+url("css/fonts/NAPLES.woff") format("woff"),
+url("css/fonts/NAPLES.woff2") format("woff2"),
+url("css/fonts/NAPLES.svg#filename") format("svg");
+}
+
 .main-div {
   margin: 0px;
   padding: 0px;
