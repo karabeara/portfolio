@@ -17,18 +17,18 @@
 
     @font-face {
       font-family: NAPLES;
-      src: url("css/fonts/NAPLES.ttf") format("truetype"); }
+      src: url("../css/fonts/NAPLES.ttf") format("truetype"); }
 
     @font-face {
       font-family: SEATTLE;
-      src: url("css/fonts/SEATTLE.ttf") format("truetype"); }
+      src: url("../css/fonts/SEATTLE.ttf") format("truetype"); }
 
     a[target=TOPO] {
       font-family: NAPLES, Roboto, sans-serif !important; 
-      color: green !important;
+      color: blue !important;
       letter-spacing: 0 !important; }
 
-    div[target=TOPO], h3[target=TOPO] {
+    div[target=TOPO] {
       font-family: NAPLES, Roboto, sans-serif !important; 
       color: red !important;
       letter-spacing: 0 !important; }
@@ -51,10 +51,10 @@
         <br>
         <p><hr><p>
 
-        <div class="title-name" href="index.html"><h3>topography<strong>typography</strong></h3></div>
+        <div class="title-name" href="index.html" target='TOPO'><h3>topography<strong>typography</strong></h3></div>
         <p><hr><p>
 
-        <div class="col-md-12">
+        <div class="col-md-12" target='TOPO'>
           <h3>Letter detection and typeface creation from arbitrary satellite images.</h3>
           <h3>Best Poster for Spring 2018 Princeton Computer Science independent work.</h3>
           <h3>Advised by David Dobkin and David Reinfurt.</h3>
