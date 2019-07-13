@@ -169,7 +169,7 @@ iframe {
 }
 
 /* Stand-along images */
-.detail-img {
+.detail-img, .detail-img-w {
   width: 80vw;
   height: auto;
   max-height: 90vh;
@@ -184,7 +184,7 @@ iframe {
   padding: 0px;
 }
 
-.detail-img-w {
+/*.detail-img-w {
   width: 80vw;
   height: auto;
   max-height: 90vh;
@@ -193,11 +193,11 @@ iframe {
   height: auto;
   /*border: 10px solid white;*/
 
-  filter: sepia(0%) saturate(100%) brightness(97%);
+/*  filter: sepia(0%) saturate(100%) brightness(97%);
 
   margin: 0px;
   padding: 0px;
-}
+}*/
 
 .detail-img-pc-single {
   width: 90vw;
@@ -286,7 +286,7 @@ iframe {
     height: auto;
 
     filter: sepia(0%) saturate(100%) brightness(97%);
-    
+
     margin: 0px;
     padding: 0px;
   }
