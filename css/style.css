@@ -270,7 +270,7 @@ iframe {
   height: auto;
   /*border: 10px solid white;*/
 
-  filter: sepia(0%) saturate(100%) brightness(97%);
+  /*filter: sepia(0%) saturate(100%) brightness(97%);*/
 
   margin: 0px;
   padding: 0px;
@@ -285,7 +285,7 @@ iframe {
     max-width: 90vw;
     height: auto;
 
-    filter: sepia(0%) saturate(100%) brightness(97%);
+    /*filter: sepia(0%) saturate(100%) brightness(97%);*/
 
     margin: 0px;
     padding: 0px;
@@ -307,8 +307,23 @@ iframe {
   padding: 0px;
 }
 
+.detail-img-grid-4 {
+  width: 90vw;
+  height: auto;
+  max-height: 90vh;
+  width: auto;
+  max-width: 22vw;
+  height: auto;
+  /*border: 10px solid black;*/
+
+  filter: sepia(0%) saturate(100%) brightness(97%);
+
+  margin: 0px;
+  padding: 0px;
+}
+
 @media (max-width: 992px) {
-  .detail-img-grid {
+  .detail-img-grid, .detail-img-grid-4 {
     width: 80vw;
     height: auto;
     max-height: 90vh;

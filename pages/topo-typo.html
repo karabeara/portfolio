@@ -29,12 +29,22 @@
       url("../css/fonts/SEATTLE.woff") format("woff");
       letter-spacing: 0; }
 
-    a[target=TOPO] {
+    @font-face {
+      font-family: BEARSEARS;
+      src: url("../css/fonts/BEARS-EARS.ttf") format("truetype"), 
+      url("../css/fonts/BEARS-EARS.woff2") format("woff2"), 
+      url("../css/fonts/BEARS-EARS.woff") format("woff"); }
+
+    a[target=NAPLES] {
       font-family: NAPLES, Roboto, sans-serif !important; 
       letter-spacing: 0 !important; }
 
-    div[target=TOPO], h3 {
+    div[target=SEATTLE], h3 {
       font-family: SEATTLE, Roboto, sans-serif !important; 
+      letter-spacing: 0 !important; }
+
+    a[target=BEARSEARS]{
+      font-family: BEARSEARS, Times, sans-serif !important; 
       letter-spacing: 0 !important; }
 
     </style>
@@ -47,9 +57,9 @@
     <div class="top">
       <div class="main_div text-center">
         <br><br>
-        <h1><a href="../list.html" target='TOPO'><strong>kara</strong> lynn <strong>bressler</strong></a></h1>
-        <h2><a href="../index.html" target='TOPO'>all <strong>projects</strong></a>
-          <br/><a href="../about.html" target='TOPO'><strong>about</strong></a>
+        <h1><a href="../list.html" target='NAPLES'><strong>kara</strong> lynn <strong>bressler</strong></a></h1>
+        <h2><a href="../index.html" target='NAPLES'>all <strong>projects</strong></a>
+          <br/><a href="../about.html" target='NAPLES'><strong>about</strong></a>
           <br/><a></a>
         </h2>
         <br>
@@ -58,12 +68,15 @@
         <div class="title-name" href="index.html" target='TOPO'><h3>topography<strong>typography</strong></h3></div>
         <p><hr><p>
 
-        <div class="col-md-12" target='TOPO'>
+        <div class="col-md-12" target='SEATTLE'>
           <h3>Glyph detection and typeface creation from arbitrary satellite images.</h3>
-          <h3>Best Poster for Spring 2018 Princeton Computer Science independent work.</h3>
           <h3>Download and read a collection of stories and technical explanations <a href="../images/Topography Typography/topography-typography-july-2019.pdf">here</a>.</h3>
+          <h3>Best Poster for Spring 2018 Princeton Computer Science independent work.</h3>
           <h3>Advised by David Reinfurt, David Dobkin, and Szymon Rusinkiewicz.</h3>
-          <h3>TensorFlow, Python, Glyphs. 2018-.</h3>
+          <h3>TensorFlow, Python, Glyphs.</h3>
+          <h3>2018&mdash;.</h3>
+          <br>
+          <h3><a target='BEARSEARS' href="../css/fonts/BEARS-EARS.ttf">Bears Ears</a></h3>
           <!-- <h3>You are currently reading the SEATTLE typeface.</h3> --><br>
         </div>
 
