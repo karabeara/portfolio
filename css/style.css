@@ -48,7 +48,7 @@
 
 }
 
-h1, h2, h3, h4, h5, h6 { /*reset for mobile browsers */
+h1, h2, h3, h4, h5, h6, a, div { /*reset for mobile browsers */
 
 font-weight: normal !important;
 
