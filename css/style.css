@@ -48,12 +48,14 @@
 
 }
 
-h1, h2, h3, h4, h5, h6, a, div { /*reset for mobile browsers */
+/*h1, h2, h3, h4, h5, h6, a, div {
 
 font-weight: normal !important;
 text-shadow: 0 0 0 !important;
 
-}
+}*/
+
+* { font-weight: normal!important; }
 
 
 .main-div {
