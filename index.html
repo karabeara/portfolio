@@ -32,17 +32,29 @@
       url("css/fonts/BEARS-EARS.woff2") format("woff2"), 
       url("css/fonts/BEARS-EARS.woff") format("woff"); }
 
+    @font-face {
+      font-family: AVERAGEBITZZZZZ;
+      src: url("css/fonts/AVERAGEBITZZZZZ.otf") format("opentype"); }
+
     a[target=NAPLES] {
       font-family: NAPLES, Roboto, sans-serif !important; 
-      letter-spacing: 0 !important; }
+      letter-spacing: 0 !important; 
+      position: relative; top: -0.25em; }
 
     div[target=SEATTLE] {
       font-family: SEATTLE, Roboto, sans-serif !important; 
-      letter-spacing: 0 !important; }
+      letter-spacing: 0 !important;
+      position: relative; top: 0.25em; }
 
     div[target=BEARSEARS], a[target=BEARSEARS] {
       font-family: BEARS-EARS, Roboto, sans-serif !important; 
-      letter-spacing: 0 !important; }
+      letter-spacing: 0 !important;
+      position: relative; top: -0.25em; }
+
+    h4[target=AVERAGE], a[target=AVERAGE] {
+      font-family: AVERAGEBITZZZZZ, Roboto, sans-serif !important; 
+      letter-spacing: 0 !important;
+      position: relative; top: 1.25em; }
 
     </style>
 
@@ -103,12 +115,17 @@
 
             <div class="col-xs-12 col-md-6 col-lg-4">
               <br><a href="pages/bears-ears.html"><img class="proj-img-w tint img-responsive center-block" src="images/Bears Ears/bears-ears-pamphlet-front.jpg"></a>
-              <h4><a href="pages/bears-ears.html" target='BEARSEARS'><strong>bears</strong>ears</a>,<br/><div target='BEARSEARS'>exhibition</div></h4>
+              <h4><a href="pages/bears-ears.html" target='BEARSEARS'><strong>bears</strong>ears</a>,<br/><div target='BEARSEARS' style="top: 0em;">exhibition</div></h4>
             </div>
 
             <div class="col-xs-12 col-md-6 col-lg-4">
               <br><a href="pages/light-shards.html"><img class="proj-img-w tint img-responsive center-block" src="images/Light Shards/1879.jpg"></a>
               <h4><a href="pages/light-shards.html"><strong>light</strong>shards</a>,<br/>installation</h4>
+            </div>
+
+            <div class="col-xs-12 col-md-6 col-lg-4">
+              <br><a href="pages/average.html"><img class="proj-img-w img-responsive center-block" src="images/Average/average-asterisk.png"></a>
+              <h4 target='AVERAGE'><a href="pages/average.html"><strong>AVERAGE</strong></a>,<br/><div style="position: relative; top: -1em;">typeface</div></h4>
             </div>
 
             <div class="col-xs-12 col-md-6 col-lg-4 text-center">
@@ -196,7 +213,7 @@
 
             <div class="col-xs-12 col-md-6 col-lg-4">
               <br><a href="pages/rgb.html"><img class="proj-img-w tint img-responsive center-block" src="images/RGB : CMY/rgb-single.jpg"></a>
-              <h4><a href="pages/rgb.html"><strong>rgb</strong>cmy</a>,<br/>mixed media</h4>
+              <h4><a href="pages/rgb.html"><strong>rgb</strong>cmy</a>,<br/>color study</h4>
             </div>
 
 
