@@ -61,9 +61,20 @@ text-shadow: 0 0 0 !important;
 }
 
 
-.main-div {
-  margin: 0px;
-  padding: 0px;
+h3[target="text-description"] {
+  margin-right: 23vw;
+  margin-left: 24vw;
+  text-align: left !important;
+  line-height: 1.5 !important;
+}
+
+@media (max-width: 992px) {
+  h3[target=text-description] {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    text-align: left !important;
+    line-height: 1.2 !important;
+  }
 }
 
 .proj-img, .proj-img-bw {
@@ -79,6 +90,10 @@ text-shadow: 0 0 0 !important;
   /*border:10px solid #000;*/
 
   filter: sepia(10%) saturate(100%) brightness(97%);
+
+  margin-right: 50vw;
+
+
 }
 
 .proj-img-w {
@@ -91,6 +106,8 @@ text-shadow: 0 0 0 !important;
   object-fit: cover;
   margin: 0px;
   padding: 0px;
+
+  margin-right: 50vw;
 
   /*filter: sepia(100%) saturate(300%) brightness(70%) hue-rotate(180deg);*/
 }
