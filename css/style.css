@@ -55,7 +55,10 @@ text-shadow: 0 0 0 !important;
 
 }*/
 
-* { font-weight: normal!important; }
+* { 
+  font-weight: normal!important;
+  text-rendering:optimizeLegibility !important; 
+}
 
 
 .main-div {
