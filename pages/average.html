@@ -25,6 +25,25 @@
       position: relative; top: 0.35em;
     }
 
+    h3[target=AVERAGE-text] {
+      font-family: AVERAGEBITZZZZZ, Roboto, sans-serif !important; 
+      letter-spacing: 0 !important;
+      position: relative; top: 0.35em;
+      margin-right: 23vw;
+      margin-left: 24vw;
+      text-align: left !important;
+      line-height: 1.5 !important;
+    }
+
+    @media (max-width: 992px) {
+      h3[target=AVERAGE-text] {
+        margin-left: 5vw;
+        margin-right: 5vw;
+        text-align: left !important;
+        line-height: 1.2 !important;
+      }
+    }
+
     </style>
 
 </head>
@@ -54,8 +73,8 @@
 
         <div class="col-md-12">
           <!-- <h3>Glyph detection and typeface creation from arbitrary satellite images.</h3> -->
-          <h3 target="AVERAGE" target="text-description">Average sample of the Modified National Institute of Standards and Technology – MNIST – dataset.</h3>
-          <h3 target="AVERAGE">2018.</h3>
+          <h3 target="AVERAGE-text" target="text-description">AVERAGE visualizes the average handwritten glyph. Each character represents the average mean sample from all instances of the glyph in the extended version of the Modified National Institute of Standards and Technology – MNIST - handwriting dataset. All samples are stacked and equally weighted. The MNIST dataset follows its origin to 1995 when the US National Institute of Standards and Technology collected about 3700 <a href="../images/Average/handwriting-sample-form.jpg">Handwriting Sample Forms</a> filled out by both employees of the American Census Bureau and American high school students. To create the Extended MNIST dataset, 5600 instances of each alphanumeric character are represented as 28 x 28 pixel white-on-black images.</h3>
+          <br><h3 target="AVERAGE">2018.</h3>
           <br>
           <!-- <h3>You are currently reading the SEATTLE typeface.</h3> --><br>
         </div>
