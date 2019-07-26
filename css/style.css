@@ -306,6 +306,19 @@ iframe {
   padding: 0px;
 }
 
+.detail-img-pc-triple-w {
+  width: 90vw;
+  height: auto;
+  max-height: 90vh;
+  width: auto;
+  max-width: 27vw;
+  height: auto;
+  /*border: 10px solid white;*/
+
+  margin: 0px;
+  padding: 0px;
+}
+
 .detail-img-journal {
   width: 90vw;
   height: auto;
